@@ -9,7 +9,7 @@ export type MenuItem = {
   description: string;
   price: number;
   category: "coffee" | "snacks" | "meals" | "pastry";
-  image: string;
+  image?: string;
   badge?: string;
 };
 
